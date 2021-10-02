@@ -19,17 +19,20 @@
                 </div>
             </div>
             <div id="second">
-                <p id="heading">You've used <span style="font-weight: bold; color: red;">815 GB</span> of your storage</p>
+                <p id="heading">You've used <span id="data-used" style="font-weight: bold; color: red;">0 GB</span> of your storage</p>
                 <div id="filler">
                     <div id="color"></div>
                 </div>
                 <div id="btns">
                     <h3>0GB</h3>
                     <h3>1000GB</h3>
-                    <button id="btn" onclick="increaseData()">Increase</button>
                 </div>
+                <button id="btn" onclick="increaseFull()">Full</button>
+                <button id="btn" onclick="Empty()">Empty</button>
+                <button id="btn" onclick="increaseHalf()">Half</button>
             </div>
         </div>
     </div>
 </body>
+<script src="./index.js"></script>
 </html>
