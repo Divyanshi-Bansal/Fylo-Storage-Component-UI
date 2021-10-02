@@ -62,7 +62,7 @@ body{
 }
 
 #color{
-    background-color: rgb(248, 69, 99);
+    background:linear-gradient(to right, green,red);
     width: 0%;
     height: 15px;
     border-radius: 8px;
